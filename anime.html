@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Data Fetcher</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 class="head-title">Anime Browser</h1>
+    <form action="#" class="searchForm js-search-form">
+        <input type="text" class="search-bar js-search-bar" name="query" placeholder="  search for anime...">
+        <button class="search-btn js-search-btn">Search</button>
+    </form>
+
+    <div class="anime-top-show js-anime-top"></div>
+
+    <div class="anime-pop-show js-anime-pop"></div>
+    
+    <div id="anime-list"></div>    
+   
+    <div id="animeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body js-modal-body"></div>
+        </div>
+    </div>
+
+</body>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</html>
